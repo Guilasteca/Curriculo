@@ -16,7 +16,7 @@ header{
     align-items: center;
     justify-content: space-evenly;
     background-color: #dac8ad;
-    height: 200px;
+    
     
 }
 
@@ -79,14 +79,39 @@ iframe{
 
 }
 
+h2{
+    color: brown;
+    font-family: 'Silkscreen', cursive;
+
+}
+p{
+    color: brown;
+    font-family: 'Silkscreen', cursive;
+    text-decoration: none;
+}
+p a{
+
+    color: brown;
+    font-family: 'Silkscreen', cursive;
+    text-decoration: none;
+
+}
+
+p :hover{
+    color: yellowgreen;
+    background-color: #ffebcd;
+    
+}
+
 footer{
 
     background-color: #dac8ad;
-    font-family: 'Silkscreen', cursive;
     margin-top: 10px;
     align-items: center;
 }
+
 h6{
+    font-family: 'Silkscreen', cursive;
     align-items: center;
-   
+    color: brown;
 }
