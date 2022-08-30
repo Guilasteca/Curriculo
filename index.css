@@ -38,24 +38,55 @@ img#hero{
 nav{
     background-color: #dac8ad;
     border-top: 7px solid #ffebcd;
-    ul{
-        display: flex;
-        justify-content: space-evenly;
-        list-style: none;
-    }
     
-    li a{
-        font-family: 'Silkscreen', cursive;
-        font-size: 30px;
-        text-decoration: none;
-        color: brown;
-        width: 100%;
-    }
-    
-    li a:hover{
-    
-        color: yellowgreen;
-    
-    }
 }
 
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li a{
+    font-family: 'Silkscreen', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    color: brown;
+    width: 100%;
+}
+
+li a:hover{
+
+    color: yellowgreen;
+    background-color: #ffebcd;
+
+}
+
+main{
+
+    background-color: #dac8ad;
+    margin-top: 10px;
+    align-items: center;
+}
+
+iframe{
+    
+    background-color: #dac8ad;
+    height: 300px;
+    border-radius: 5%;
+    margin: 10px 0px 10px 0px;
+    border: 7px solid #ffebcd;
+
+}
+
+footer{
+
+    background-color: #dac8ad;
+    font-family: 'Silkscreen', cursive;
+    margin-top: 10px;
+    align-items: center;
+}
+h6{
+    align-items: center;
+   
+}
