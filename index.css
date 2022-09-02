@@ -31,25 +31,48 @@ img#hero{
 nav{
     background-color: #dac8ad;
     border-top: 7px solid #ffebcd;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
 }
 
 ul{
-    display: flex;
-    justify-content: space-evenly;
+    height: 100px;
+    justify-content: space-evenly;  
     list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
 }
 
+ul li{
+    margin: 0 0 0 0;
+    padding: 0px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
 li a{
+    width: 100%;
     font-family: 'EB Garamond', serif;
     font-size: 30px;
     text-decoration: none;
     color: brown;
-    width: 100%;
+    height: 100%;
+   
+    
 }
 
 li a:hover{
     color: yellowgreen;
     background-color: #ffebcd;
+    
 }
 
 main{
@@ -106,7 +129,11 @@ p :hover{
 }
  */
 footer{
+    position: fixed;
+    text-align: center;
     background-color: #dac8ad;
+    width: 100%;
+    bottom: 0px;
     margin-top: 10px;
     align-items: center;
 }
