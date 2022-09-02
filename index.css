@@ -5,40 +5,32 @@
 }
 
 html,body{
-
     background-color: #ffebcd;
-
 }
 
 header{
-
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: #dac8ad;
-    
-    
 }
 
 img#hero{
-
     width: 180px;
     border-radius: 20%;
     margin: 10px 0px 10px 0px;
     border: 7px solid #ffebcd;
-
 }
 
 #nome{
-
     color: brown;
-    font-family: 'Silkscreen', cursive;
-
+    font-family: 'EB Garamond', serif;
+    font-size: 60px;
 }
+
 nav{
     background-color: #dac8ad;
     border-top: 7px solid #ffebcd;
-    
 }
 
 ul{
@@ -48,7 +40,7 @@ ul{
 }
 
 li a{
-    font-family: 'Silkscreen', cursive;
+    font-family: 'EB Garamond', serif;
     font-size: 30px;
     text-decoration: none;
     color: brown;
@@ -56,62 +48,71 @@ li a{
 }
 
 li a:hover{
-
     color: yellowgreen;
     background-color: #ffebcd;
-
 }
 
 main{
-
     background-color: #dac8ad;
     margin-top: 10px;
     align-items: center;
 }
 
 iframe{
-    
     background-color: #dac8ad;
     height: 300px;
     border-radius: 5%;
     margin: 10px 0px 10px 0px;
     border: 7px solid #ffebcd;
-
 }
 
 h2{
     color: brown;
-    font-family: 'Silkscreen', cursive;
-
+    font-family: 'EB Garamond', serif;
 }
-p{
+
+
+#sobre_mim{
+    margin-left: 20px;
+    text-align: left;
     color: brown;
-    font-family: 'Silkscreen', cursive;
+    font-family: 'EB Garamond', serif;
     text-decoration: none;
 }
+#sobre_mim a{
+    color: brown;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+}
+#sobre_mim a:hover{
+    color: yellowgreen;
+    background-color: #ffebcd;
+}
+/* p{
+    color: brown;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+}
+
 p a{
-
     color: brown;
-    font-family: 'Silkscreen', cursive;
+    font-family: 'EB Garamond', serif;
     text-decoration: none;
-
 }
 
 p :hover{
     color: yellowgreen;
     background-color: #ffebcd;
-    
 }
-
+ */
 footer{
-
     background-color: #dac8ad;
     margin-top: 10px;
     align-items: center;
 }
 
 h6{
-    font-family: 'Silkscreen', cursive;
+    font-family: 'EB Garamond', serif;
     align-items: center;
     color: brown;
 }
