@@ -7,25 +7,46 @@
 html,body{
     background-color: #ffebcd;
 }
+audio{
+    text-decoration: none;
+    justify-content: center;
+    display: center;
+    margin: 0px;
+    width: 100%;
+    height: 0px;
+    background-color: #dac8ad;
+    
+}
 
 header{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #dac8ad;
 }
 
 img#hero{
-    width: 150px;
+    width: 100px;
     border-radius: 50%;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 30px 10px 0px;
     border: 7px solid #ffebcd;
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+}
+img#hero:hover{
+    width: 300px;
+    
 }
 
 #nome{
     color: brown;
     font-family: 'EB Garamond', serif;
     font-size: 60px;
+}
+
+#name{
+    color: brown;
+    font-family: 'EB Garamond', serif;
 }
 
 nav{
@@ -35,8 +56,10 @@ nav{
     justify-content: center;
     align-items: center;
     display: flex;
-    
+    position: sticky;
+    top: 0;
 }
+
 
 ul{
     transition: width 3s;
@@ -104,9 +127,14 @@ h2{
     color: brown;
     font-family: 'EB Garamond', serif;
 }
-
+main{
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+}
 
 #sobre_mim{
+    
     margin-left: 20px;
     text-align: left;
     color: brown;
@@ -114,6 +142,7 @@ h2{
     text-decoration: none;
 }
 #sobre_mim a{
+    
     color: brown;
     font-family: 'EB Garamond', serif;
     text-decoration: none;
@@ -121,6 +150,16 @@ h2{
 #sobre_mim a:hover{
     color: yellowgreen;
     background-color: #ffebcd;
+}
+
+#loren{
+    margin: 10px 40px 10px 10px ;
+    border: 40px;
+    padding: 0px;
+    color: brown;
+    font-family: 'EB Garamond', serif;
+    text-align: left;
+    
 }
 
 footer{
