@@ -127,7 +127,7 @@ main{
     
     margin-left: 50px;
     text-align: left;
-    color: grey;
+    color: black;
     font-family: 'EB Garamond', serif;
     
 }
@@ -147,7 +147,7 @@ main{
     margin-top: 20px;
     margin-left: 50px;
     text-align: left;
-    color: grey;
+    color: black;
     font-family: 'EB Garamond', serif;
     
 }
@@ -155,24 +155,29 @@ main{
     margin-top: 40px;
     color: black;
 }
-#Experiencia_profissional h4{
-    color: black;
+#Experiencia_profissional h6{
+    color: grey;
+}
+#Experiencia_profissional ul{
+    color: grey;
+    margin-top: 10px;
 }
 
 
 
-footer{
+
+#footer{
     position: fixed;
     text-align: center;
-    background-color: #dac8ad;
+    background-color: #394ea8;
     width: 100%;
     bottom: 0px;
-    margin-top: 10px;
     align-items: center;
+    border-top:10px solid #031254 ;
 }
 
-h6{
+#footer h6{
     font-family: 'EB Garamond', serif;
     align-items: center;
-    color: brown;
+    color: white;
 }
