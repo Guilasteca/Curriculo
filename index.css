@@ -3,10 +3,17 @@
     border: 0px;
     padding: 0px;
 }
+/* 
+#031254 azul back ground
+#394ea8 azul quase background
+
+
+*/
 
 html,body{
-    background-color: #ffebcd;
+    background-color: white;
 }
+
 audio{
     text-decoration: none;
     justify-content: center;
@@ -22,14 +29,17 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #dac8ad;
+    background-color: #394ea8;
+    border-top: 30px solid #031254;
+    border-bottom: 10px solid #031254;
+
 }
 
 img#hero{
     width: 100px;
     border-radius: 50%;
     margin: 10px 30px 10px 0px;
-    border: 7px solid #ffebcd;
+    border: 2px solid #031254;
     transition: width 2s;
     transition-timing-function: ease-in-out;
 }
@@ -39,31 +49,31 @@ img#hero:hover{
 }
 
 #nome{
-    color: brown;
+    color: white;
     font-family: 'EB Garamond', serif;
     font-size: 60px;
 }
 
 #name{
-    color: brown;
+    color: white;
     font-family: 'EB Garamond', serif;
 }
 
-nav{
-    background-color: #dac8ad;
-    border-top: 7px solid #ffebcd;
+#nav{
     height: 50px;
+    background-color: #394ea8;
+    /* border-top: 7px solid #ffebcd; */
     justify-content: center;
     align-items: center;
     display: flex;
     position: sticky;
-    top: 0;
+    margin-bottom: 17px;
 }
 
 
-ul{
+#nav ul{
     transition: width 3s;
-    height: 100px;
+    height: 100%;
     justify-content: space-evenly;  
     list-style: none;
     display: flex;
@@ -73,7 +83,7 @@ ul{
 
 }
 
-ul li{
+#nav ul li{
     margin: 0 0 0 0;
     padding: 0px;
     display: flex;
@@ -84,23 +94,20 @@ ul li{
 
 
 
-ul li a{
+#nav ul li a{
     width: 100%;
     font-family: 'EB Garamond', serif;
     font-size: 30px;
-    text-decoration: none;
-    color: brown;
+    /* text-decoration: none; */
+    color: white;
     height: 100%;
     text-align: center;
-    /* justify-content: center; */
-    /* align-items: center; */
        
 }
 
-ul li a:hover{
-    /* margin: 0 0 0 0; */
-    color: yellowgreen;
-    background-color: #ffebcd;
+#nav ul li a:hover{
+    color: white;
+    background-color: #031254;
     height: 50px;
     align-items: center;
     justify-content: center;
@@ -110,57 +117,49 @@ ul li a:hover{
 }
 
 main{
-    background-color: #dac8ad;
+    background-color: white;
     margin-top: 10px;
     align-items: center;
 }
 
-iframe{
-    background-color: #dac8ad;
-    height: 300px;
-    border-radius: 5%;
-    margin: 10px 0px 10px 0px;
-    border: 7px solid #ffebcd;
-}
 
-h2{
-    color: brown;
-    font-family: 'EB Garamond', serif;
-}
-main{
-    margin: 10px;
-    border: 10px;
-    padding: 10px;
-}
-
-#sobre_mim{
+#Habilidades{
     
-    margin-left: 20px;
+    margin-left: 50px;
     text-align: left;
-    color: brown;
+    color: grey;
     font-family: 'EB Garamond', serif;
-    text-decoration: none;
-}
-#sobre_mim a{
     
-    color: brown;
-    font-family: 'EB Garamond', serif;
-    text-decoration: none;
-}
-#sobre_mim a:hover{
-    color: yellowgreen;
-    background-color: #ffebcd;
 }
 
-#loren{
-    margin: 10px 40px 10px 10px ;
-    border: 40px;
-    padding: 0px;
-    color: brown;
-    font-family: 'EB Garamond', serif;
+#Habilidades_li ul li{
+
+    margin-left: 50px;
     text-align: left;
+    color: grey;
+    font-family: 'EB Garamond', serif;
+    list-style: circle inside;
     
 }
+
+#Experiencia_profissional{
+
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: left;
+    color: grey;
+    font-family: 'EB Garamond', serif;
+    
+}
+#Experiencia_profissional h3{
+    margin-top: 40px;
+    color: black;
+}
+#Experiencia_profissional h4{
+    color: black;
+}
+
+
 
 footer{
     position: fixed;
