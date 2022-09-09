@@ -1,3 +1,9 @@
+:root{
+    --primario:var(color #394ea8)
+    --secundario:var(color #031254)
+
+}
+
 *{ 
     margin: 0px;
     border: 0px;
@@ -117,19 +123,42 @@ img#hero:hover{
 }
 
 main{
+
     background-color: white;
     margin-top: 10px;
-    align-items: center;
+   
+    
 }
 
+/* section #main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 
+
+} */
+
+section #direita{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 40px;
+    width: 30%;
+}
+
+section #esquerda{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 40px;
+    width: 70%;
+}
 #Habilidades{
-    
     margin-left: 50px;
     text-align: left;
     color: black;
     font-family: 'EB Garamond', serif;
-    
+    width: 50%;
 }
 
 #Habilidades_li ul li{
