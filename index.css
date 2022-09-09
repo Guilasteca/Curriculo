@@ -149,18 +149,23 @@ main{
     text-align: left;
     color: black;
     font-family: 'EB Garamond', serif;
-    
+        
 }
+
 #Experiencia_profissional h3{
     margin-top: 40px;
     color: black;
 }
+
 #Experiencia_profissional h6{
     color: grey;
 }
+
 #Experiencia_profissional ul{
     color: grey;
     margin-top: 10px;
+    list-style: circle inside;
+
 }
 
 
