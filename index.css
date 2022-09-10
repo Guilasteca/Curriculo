@@ -48,15 +48,16 @@ header {
 
 img#hero {
     width: 100px;
-    border-radius: 50%;
+    border-radius: 20%;
     margin: 10px 30px 10px 0px;
     border: 2px solid #13293d;
-    transition: width 2s;
+    transition: width 0.5s;
     transition-timing-function: ease-in-out;
 }
 
 img#hero:hover {
-    width: 300px;
+    width: 250px;
+    
 
 }
 
