@@ -90,6 +90,7 @@ img#hero:hover {
 
 }
 
+
 #nav ul li {
     margin: 0 0 0 0;
     padding: 0px;
@@ -98,7 +99,6 @@ img#hero:hover {
     align-items: center;
     justify-content: center;
 }
-
 
 
 #nav ul li a {
@@ -125,7 +125,7 @@ img#hero:hover {
     display: flex;
     width: 100%;
     border-radius: 20px;
-        
+
 
 }
 
@@ -134,7 +134,7 @@ img#hero:hover {
     display: flex;
     justify-content: space-evenly;
     justify-content: center;
-   
+
 
 }
 
@@ -147,10 +147,12 @@ img#hero:hover {
     text-align: center;
 
 }
-#direita h2{
+
+#direita h2 {
     margin-top: 20px;
     color: white;
 }
+
 #esquerda {
     height: 100%;
     width: 75%;
