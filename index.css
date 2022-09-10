@@ -1,5 +1,5 @@
 :root {
-    --primario: var(color #394ea8) --secundario:var(color #031254)
+    --primario: var(color #394ea8) --secundario:var(color #031254) --secundario: color black;
 }
 
 * {
@@ -12,12 +12,17 @@
 #031254 azul back ground
 #394ea8 azul quase background
 
+#e8f1f2 azure x 11
+#13293d prussian blue azul escuro
+#247ba0 celadon blue
+#006494 sapphire blue
+
 
 */
 
 html,
 body {
-    background-color: white;
+    background-color: #e8f1f2;
 }
 
 audio {
@@ -27,7 +32,7 @@ audio {
     margin: 0px;
     width: 100%;
     height: 0px;
-    background-color: #dac8ad;
+    background-color: #e8f1f2;
 
 }
 
@@ -35,9 +40,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #394ea8;
-    border-top: 30px solid #031254;
-    border-bottom: 10px solid #031254;
+    background-color: #0b3b52;
+    border-top: 5px solid #13293d;
+    border-bottom: 5px solid #13293d;
 
 }
 
@@ -45,7 +50,7 @@ img#hero {
     width: 100px;
     border-radius: 50%;
     margin: 10px 30px 10px 0px;
-    border: 2px solid #031254;
+    border: 2px solid #13293d;
     transition: width 2s;
     transition-timing-function: ease-in-out;
 }
@@ -56,25 +61,26 @@ img#hero:hover {
 }
 
 #nome {
-    color: white;
+    color: #e8f1f2;
     font-family: 'EB Garamond', serif;
     font-size: 60px;
 }
 
 #name {
-    color: white;
+    color: #e8f1f2;
     font-family: 'EB Garamond', serif;
 }
 
 #nav {
     height: 50px;
-    background-color: #394ea8;
+    background-color: #0b3b52;
     /* border-top: 7px solid #ffebcd; */
     justify-content: center;
     align-items: center;
     display: flex;
     position: sticky;
     margin-bottom: 0px;
+    border-bottom: 3px solid #13293d;
 }
 
 
@@ -106,7 +112,7 @@ img#hero:hover {
     font-family: 'EB Garamond', serif;
     font-size: 30px;
     /* text-decoration: none; */
-    color: white;
+    color: #e8f1f2;
     height: 100%;
     text-align: center;
     transition: 0.5s;
@@ -116,8 +122,8 @@ img#hero:hover {
 }
 
 #nav ul li a:hover {
-    color: black;
-    background-color: white;
+    color: #13293d;
+    background-color: #e8f1f2;
     height: 100%;
     align-items: center;
     justify-content: center;
@@ -134,37 +140,37 @@ img#hero:hover {
     display: flex;
     justify-content: space-evenly;
     justify-content: center;
-
+    margin-bottom: 24px;
 
 }
 
 #direita {
-    border-top: 10px solid#031254;
+    /* border-top: 10px solid#13293d; */
     height: auto;
     width: 25%;
-    background-color: #394ea8;
+    background-color: #13293d;
     align-items: center;
     text-align: center;
 
 }
 
 #direita h2 {
-    margin-top: 20px;
-    color: white;
+    /* margin-top: 20px; */
+    color: #e8f1f2;
 }
 
 #esquerda {
     height: 100%;
     width: 75%;
-    background-color: white;
-    border-top: 10px solid white;
+    background-color: #e8f1f2;
+    border-top: 10px solid #e8f1f2;
 
 }
 
 #Habilidades {
     margin-left: 50px;
     text-align: left;
-    color: black;
+    color: #13293d;
     font-family: 'EB Garamond', serif;
 }
 
@@ -183,14 +189,14 @@ img#hero:hover {
     margin-top: 20px;
     margin-left: 50px;
     text-align: left;
-    color: black;
+    color: #13293d;
     font-family: 'EB Garamond', serif;
 
 }
 
 #Experiencia_profissional h3 {
     margin-top: 40px;
-    color: black;
+    color: #13293d;
 }
 
 #Experiencia_profissional h6 {
@@ -210,15 +216,15 @@ img#hero:hover {
 #footer {
     position: fixed;
     text-align: center;
-    background-color: #394ea8;
+    background-color: #0b3b52;
     width: 100%;
     bottom: 0px;
     align-items: center;
-    border-top: 10px solid #031254;
+    border-top: 10px solid #13293d;
 }
 
 #footer h6 {
     font-family: 'EB Garamond', serif;
     align-items: center;
-    color: white;
+    color: #e8f1f2;
 }
