@@ -57,7 +57,7 @@ img#hero {
 
 img#hero:hover {
     width: 250px;
-    
+
 
 }
 
@@ -152,13 +152,90 @@ img#hero:hover {
     background-color: #13293d;
     align-items: center;
     text-align: center;
+    margin-bottom: 0px;
 
 }
 
 #direita h2 {
     /* margin-top: 20px; */
     color: #e8f1f2;
+    text-align: center;
 }
+
+#direita h5 {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 10px;
+    text-align: left;
+    color: #e8f1f2;
+
+
+}
+
+#direita h3 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #e8f1f2;
+}
+
+
+#endereco {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+
+}
+
+#endereco h6:hover {
+
+    background-color: #e8f1f2;
+    border-radius: 10px;
+    color: #13293d;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+#endereco img {
+    display: flex;
+    height: 30px;
+    margin-left: 15px;
+
+}
+
+#endereco h6 {
+    margin-left: 3px;
+    display: flex;
+    color: #e8f1f2;
+}
+
+
+#email img {
+    display: flex;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+
+#telefone img {
+    display: flex;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+
+#likedin img {
+    display: flex;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+
 
 #esquerda {
     height: 100%;
