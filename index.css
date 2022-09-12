@@ -150,14 +150,14 @@ img#hero:hover {
     height: auto;
     width: 25%;
     background-color: #13293d;
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
+    /* text-align: center; */
     margin-bottom: 0px;
 
 }
 
 #direita h2 {
-    /* margin-top: 20px; */
+    margin-top: 10px;
     color: #e8f1f2;
     text-align: center;
 }
@@ -169,7 +169,6 @@ img#hero:hover {
     text-align: left;
     color: #e8f1f2;
 
-
 }
 
 #direita h3 {
@@ -179,23 +178,33 @@ img#hero:hover {
     color: #e8f1f2;
 }
 
+#direita h6:hover {
 
-#endereco {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+    background-color: #e8f1f2;
+    border-radius: 5px;
+    color: #13293d;
     transition: 0.5s;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: linear;
+    align-items: left;
+    justify-content: left;
+    text-align: none;
+    display: flex;
+    width: 200px;
+}
+
+#direita h6{
+    transition: 0.5s;
+    transition-timing-function: linear;
+    width: 200px;
 
 }
 
-#endereco h6:hover {
-
-    background-color: #e8f1f2;
-    border-radius: 10px;
-    color: #13293d;
-    transition: 0.5s;
-    transition-timing-function: ease-in-out;
+#endereco {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
 }
 
 #endereco img {
@@ -206,33 +215,97 @@ img#hero:hover {
 }
 
 #endereco h6 {
-    margin-left: 3px;
+    margin-left: 15px;
     display: flex;
     color: #e8f1f2;
+    padding: 2px;
+    padding-left: 7px;
+    width: 200px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
 }
 
+#email {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
 
 #email img {
     display: flex;
     height: 30px;
-    margin-top: 20px;
     margin-left: 15px;
 
+}
+
+
+#email h6 {
+    margin-left: 15px;
+    display: flex;
+    color: #e8f1f2;
+    padding: 8px;
+    width: 150px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+#telefone {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
 }
 
 #telefone img {
     display: flex;
     height: 30px;
-    margin-top: 20px;
     margin-left: 15px;
 
+
+}
+
+
+#telefone h6 {
+    margin-left: 15px;
+    display: flex;
+    color: #e8f1f2;
+    padding: 8px;
+    width: 150px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+
+}
+
+#likedin {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
 }
 
 #likedin img {
     display: flex;
     height: 30px;
-    margin-top: 20px;
     margin-left: 15px;
+
+}
+
+
+#likedin h6 {
+    margin-left: 15px;
+    display: flex;
+    color: #e8f1f2;
+    padding: 8px;
+    width: 150px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
 
 }
 
