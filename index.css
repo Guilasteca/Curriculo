@@ -371,7 +371,7 @@ img#hero:hover {
     width: 100%;
     bottom: 0px;
     align-items: center;
-    border-top: 10px solid #13293d;
+    border-top: 5px solid #13293d;
 }
 
 #footer h6 {
