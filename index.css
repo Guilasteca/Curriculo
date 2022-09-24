@@ -60,6 +60,8 @@ img#hero:hover {
 }
 
 #nome {
+    width: 100%;
+    height: 100%;
     color: #e8f1f2;
     font-family: 'EB Garamond', serif;
     font-size: 60px;
@@ -71,14 +73,13 @@ img#hero:hover {
 }
 
 #nav {
-    height: 50px;
+    width: 100%;
+    height: 100%;
     background-color: #0b3b52;
-    /* border-top: 7px solid #ffebcd; */
     justify-content: center;
     align-items: center;
     display: flex;
     position: sticky;
-    margin-bottom: 0px;
     border-bottom: 3px solid #13293d;
 }
 
@@ -90,7 +91,6 @@ img#hero:hover {
     display: flex;
     align-items: center;
     width: 100%;
-    margin: 0 0 0 0;
 }
 
 #nav ul li {
@@ -127,6 +127,8 @@ img#hero:hover {
 }
 
 #main {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-evenly;
     justify-content: center;
