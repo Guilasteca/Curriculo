@@ -44,19 +44,23 @@ header {
     background-color: #0b3b52;
     border-top: 5px solid #13293d;
     border-bottom: 5px solid #13293d;
+    
 }
 
+
 img#hero {
-    width: 100px;
+    width: 11vw;
     border-radius: 20%;
     margin: 10px 30px 10px 0px;
     border: 2px solid #13293d;
     transition: width 0.5s;
     transition-timing-function: ease-in-out;
+   
 }
 
 img#hero:hover {
-    width: 250px;
+    width: 26vw;
+    height: auto;
 }
 
 #nome {
@@ -64,12 +68,14 @@ img#hero:hover {
     height: 100%;
     color: #e8f1f2;
     font-family: 'EB Garamond', serif;
-    font-size: 60px;
+    
+
 }
 
 #name {
     color: #e8f1f2;
     font-family: 'EB Garamond', serif;
+    font-size:3vw;
 }
 
 #nav {
@@ -81,6 +87,7 @@ img#hero:hover {
     display: flex;
     position: sticky;
     border-bottom: 3px solid #13293d;
+    
 }
 
 #nav ul {
@@ -105,7 +112,7 @@ img#hero:hover {
 #nav ul li a {
     width: 100%;
     font-family: 'EB Garamond', serif;
-    font-size: 30px;
+    font-size:2.3vw;
     color: #e8f1f2;
     height: 100%;
     text-align: center;
@@ -146,6 +153,7 @@ img#hero:hover {
     margin-top: 10px;
     color: #e8f1f2;
     text-align: center;
+    font-size:2vw;
 }
 
 #direita h5 {
@@ -154,6 +162,7 @@ img#hero:hover {
     margin-right: 10px;
     text-align: left;
     color: #e8f1f2;
+    font-size:1vw;
 }
 
 #direita h3 {
@@ -161,6 +170,7 @@ img#hero:hover {
     margin-bottom: 30px;
     text-align: center;
     color: #e8f1f2;
+    font-size:2vw;
 }
 
 #direita h6:hover {
@@ -198,6 +208,8 @@ img#hero:hover {
     display: flex;
     height: 30px;
     margin-left: 15px;
+    width: 2.5vw;
+    height: auto;
 
 }
 
@@ -210,6 +222,8 @@ img#hero:hover {
     align-items: left;
     justify-content: left;
     text-align: left;
+    font-size:1vw;
+
 }
 
 #email {
@@ -223,6 +237,8 @@ img#hero:hover {
     display: flex;
     height: 30px;
     margin-left: 15px;
+    width: 2.5vw;
+    height: auto;
 }
 
 #email h6 {
@@ -234,6 +250,7 @@ img#hero:hover {
     align-items: left;
     justify-content: left;
     text-align: left;
+    font-size:1vw;
     
 }
 
@@ -249,6 +266,8 @@ img#hero:hover {
     display: flex;
     height: 30px;
     margin-left: 15px;
+    width: 2.5vw;
+    height: auto;
 }
 
 #telefone h6 {
@@ -260,6 +279,7 @@ img#hero:hover {
     align-items: left;
     justify-content: left;
     text-align: left;
+    font-size:1vw;
 }
 
 #likedin {
@@ -274,6 +294,8 @@ img#hero:hover {
     display: flex;
     height: 30px;
     margin-left: 15px;
+    width: 2.5vw;
+    height: auto;
 
 }
 
@@ -286,7 +308,7 @@ img#hero:hover {
     align-items: left;
     justify-content: left;
     text-align: left;
-
+    font-size: 1vw;
 }
 
 #esquerda {
@@ -302,6 +324,7 @@ img#hero:hover {
     text-align: left;
     color: #13293d;
     font-family: 'EB Garamond', serif;
+    font-size:2vw;
 }
 
 #Habilidades_li ul li {
@@ -310,6 +333,7 @@ img#hero:hover {
     color: grey;
     font-family: 'EB Garamond', serif;
     list-style: circle inside;
+    font-size:1.4vw;
 }
 
 #Experiencia_profissional {
@@ -318,6 +342,7 @@ img#hero:hover {
     text-align: left;
     color: #13293d;
     font-family: 'EB Garamond', serif;
+    font-size:2vw;
 }
 
 #Experiencia_profissional h3 {
@@ -333,6 +358,7 @@ img#hero:hover {
     color: grey;
     margin-top: 10px;
     list-style: circle inside;
+    font-size:1.4vw;
 }
 
 #footer {
@@ -349,4 +375,5 @@ img#hero:hover {
     font-family: 'EB Garamond', serif;
     align-items: center;
     color: #e8f1f2;
+    font-size:1vw;
 }
